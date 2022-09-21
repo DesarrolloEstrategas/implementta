@@ -1,0 +1,48 @@
+html,body{
+    font-family: 'Plus Jakarta Sans','sans-serif'!important;
+    font-weight: 500!important;
+    background-color:#e2e8f0;
+}
+
+.modal {
+    transition: opacity 0.25s ease;
+}
+
+body.modal-active {
+    overflow-x: hidden;
+    overflow-y: hidden !important;
+}
+.opacity-95 {
+    opacity: 
+    .95;
+}
+
+input[type="date"] {
+    min-height: 50px!important;
+    height:50px!important;
+}
+
+input:checked+svg {
+    display: block;
+}
+
+[x-cloak] {
+    display: none;
+    }
+
+.part-2, .part-3{
+    display:none;
+}
+    
+/* 
+* {
+scroll-behavior: smooth!important;
+} 
+*/
+
+a[href^="http://maps.google.com/maps"]{display:none !important}
+a[href^="https://maps.google.com/maps"]{display:none !important}
+
+.gmnoprint a, .gmnoprint span, .gm-style-cc {
+    display:none;
+}
