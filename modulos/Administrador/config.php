@@ -107,6 +107,13 @@ $plazas=sqlsrv_fetch_array($usr);
                                 <h4 style="text-shadow: 1px 1px 2px #717171;">Modificar Gestiones <img src="https://img.icons8.com/fluency/40/FFFFFF/tasks.png"/></h4>
                             </a>
                         </div>
+                         <?php if ($plaza['id_plaza'] == 15){?>
+                        <div class="card">
+                                <a href="../edit/edit2.php?plz=<?php echo $_GET['codplz'] ?>" class="btn btn-lg btn-block btn-outline-dark">
+                                    <h4 style="text-shadow: 1px 1px 2px #717171;">Web service <img src="../../img/images/exclude.png" width="10%" height="5%" /></h4>
+                                </a>
+                            </div>
+                        <?php }?>
 
 
 
